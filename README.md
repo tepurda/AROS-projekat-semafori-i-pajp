@@ -10,9 +10,11 @@ Bildovanje programa
 3. Kompajlirati kodove komandama:
 
    gcc sender.c -o sender -lpthread
+
    gcc receiver.c -o receiver -lpthread
 
-4. Pokrenuti programe komandama u terminalima:
+5. Pokrenuti programe komandama u terminalima:
 
    ./sender
+
    ./receiver
